@@ -35,6 +35,18 @@ html:not(.light) .ph-moon {
 
     color: var(--text-color);
 }
+/*Acessibilidade de leitura*/
+.sr-only {
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    overflow: hidden;
+
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    appearance: none;
+}
 
 body {
     background-color: var(--bg-color);
